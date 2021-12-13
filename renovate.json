@@ -1,0 +1,7 @@
+{
+  "packageRules": [{
+    "matchPackageNames": ["django"],
+    "compatibleVersion": "^(?<version>.*?)(-(?<compatibility>.*))?$",
+    "versioning": "pypi"
+  }]
+}
